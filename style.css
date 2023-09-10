@@ -1,0 +1,100 @@
+table {
+    border-collapse: collapse;
+    background-color: blue;
+    width: 1500px;
+    height: 20px;
+}
+button{
+    background-color: beige;
+    border-color: white;
+    
+   
+}
+/* Style the Flipkart search container */
+.flipkart-search {
+    background-color:blue;
+    padding: 15px 0;
+    text-align: center;
+    margin-left: -100px;
+}
+
+/* Style the search bar container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 500px;
+}
+
+
+#search-button {
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-bottom: -425px;
+}
+.a {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+}
+.b{
+    margin-top: 400px;
+    margin-right: 1000px;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+.a :hover{
+    color: blue;
+}
+.c :hover{
+     color: purple;
+}
+ h1 button{
+ border-radius: 15%;
+ color: azure;
+}
+.e{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto ;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-bottom: -400px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
