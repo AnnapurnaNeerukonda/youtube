@@ -1,0 +1,61 @@
+.big-search-bar {
+    margin-left: 250px;
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.a1 img {
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.a2  {
+    border-radius: 30px;
+    margin-right: 180px;
+}
+.b{
+    display: grid;
+    grid-template-rows: auto ;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    background-color:white;
+   padding: 5%;
+    row-gap: 40px;
+    column-gap: 15px;
+} 
+.item1{
+ grid-row-end: span 10;
+ margin-left: -80px;
+}
+.item2{
+    grid-column-end: span 9;
+    margin-top: -30px;
+}
+.items{
+    grid-column-end: span 3;
+    margin-top: -10px;
+    margin-right: 100px;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+ table td .item3 img{
+ border-radius: 30px;
+ height: 20px;
+ width:35px;
+}
+ .item1 table .e tr td{
+   float: left;
+}
+.items img{
+    border-radius: 15%;
+    height: 200px;
+}
+button{
+    border-radius:15% ;
+    border-color: lightgray;
+    background-color: lightgray;
+}

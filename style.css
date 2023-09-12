@@ -10,7 +10,7 @@ button{
     
    
 }
-/* Style the Flipkart search container */
+
 .flipkart-search {
     background-color:blue;
     padding: 15px 0;
@@ -18,7 +18,7 @@ button{
     margin-left: -100px;
 }
 
-/* Style the search bar container */
+
 .search-bar {
     display: flex;
     justify-content: center;
@@ -97,4 +97,8 @@ button{
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+  }
+  table  .e{
+    float: left;
+    margin-left: 300px;
   }
